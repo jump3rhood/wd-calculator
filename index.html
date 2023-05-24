@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>WD Calculator</title>
+  </head>
+  <body>
+    <h1>WD Calculator</h1>
+    <table id="inventoryTable">
+      <thead>
+        <tr> 
+          <th>Items</th>
+          <th class="digits">Wt</th>
+          <th class="digits">T Qty</th>
+          <th class="digits">T Wt</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      
+      <tfoot id="tFooter">
+        <tr>
+          <td>Total:</td>
+          <td></td>
+          <td id="totalQuantity"></td>
+          <td id="totalWeight"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="td-input">$<input type="number" id="defaultFee"/></td>
+          <td>Total WD Fee:</td>
+          <td id="totalFee"></td>
+          <td></td>
+        </tr>
+      </tfoot>
+    </table>
+</body>
+<script src="script.js"></script>
+</html>
